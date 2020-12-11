@@ -1,0 +1,36 @@
+# Oratek Soya Collection Board Configuration
+#
+# For more information see:
+# - https://oratek.com
+#
+
+
+##############################################################
+# Oratek Soya L
+soya-l.name=Oratek SOYA L
+soya-l.bootloader.low_fuses=0xff
+soya-l.bootloader.high_fuses=0xd8
+soya-l.bootloader.extended_fuses=0xcb
+soya-l.bootloader.file=Caterina-Feather32u4.hex
+soya-l.bootloader.unlock_bits=0x3F
+soya-l.bootloader.lock_bits=0x2F
+soya-l.bootloader.tool=arduino:avrdude
+soya-l.build.mcu=atmega32u4
+soya-l.build.f_cpu=8000000L
+soya-l.build.vid=0x239A
+soya-l.build.pid=0x800D
+soya-l.build.core=arduino:arduino
+soya-l.build.variant=soya-l
+soya-l.build.board=SOYA-L
+soya-l.build.usb_product="Soya-L"
+soya-l.build.usb_manufacturer="Oratek"
+soya-l.build.extra_flags={build.usb_flags}
+soya-l.upload.protocol=avr109
+soya-l.upload.maximum_size=28672
+soya-l.upload.speed=57600
+soya-l.upload.disable_flushing=true
+soya-l.upload.use_1200bps_touch=true
+soya-l.upload.wait_for_upload_port=true
+soya-l.upload.tool=arduino:avrdude
+soya-l.vid.0=0x239A
+soya-l.pid.0=0x000D
