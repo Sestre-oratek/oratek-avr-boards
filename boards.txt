@@ -6,12 +6,12 @@
 
 
 ##############################################################
-# Oratek Soya L
-soya-l.name=Oratek SOYA L
+# Oratek SOYA-L
+soya-l.name=Oratek SOYA-L
 soya-l.bootloader.low_fuses=0xff
 soya-l.bootloader.high_fuses=0xd8
 soya-l.bootloader.extended_fuses=0xcb
-soya-l.bootloader.file=Caterina-Feather32u4.hex
+soya-l.bootloader.file=soya-l/Caterina-Feather32u4.hex
 soya-l.bootloader.unlock_bits=0x3F
 soya-l.bootloader.lock_bits=0x2F
 soya-l.bootloader.tool=arduino:avrdude
