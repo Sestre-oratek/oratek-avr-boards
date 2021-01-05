@@ -58,7 +58,7 @@ echo "----- Commit json -----"
 git add .
 git config user.name $COMMITUSERNAME
 git config user.email $COMMITUSEREMAIL
-git commit -m "Add avr V$VERSIONNUMBER platform"
+git commit -m "Add avr v$VERSIONNUMBER platform"
 
 echo ""
 echo "----- Push json -----"
