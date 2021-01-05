@@ -22,12 +22,12 @@ jobs:
         with:
           path: oratek-avr-boards
 
-      - name: Checkout json
+      - name: Checkout arduino-boards-manager
         uses: actions/checkout@v2
         with:
-          repository: Sestre-oratek/jsonFiles
+          repository: oratek-ch/arduino-boards-manager
           token: ${{secrets.PAT}} # `GitHub_PAT` is a secret that contains your PAT
-          path: jsonFiles
+          path: arduino-boards-manager
           
       # Runs a single command using the runners shell
       - name: Run deploy script
